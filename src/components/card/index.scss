@@ -1,0 +1,55 @@
+.card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    color: #f2f2f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    }
+  
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      h3 {
+        margin: 0;
+        font-size: 1.5rem;
+      }
+  
+      .card-actions {
+        display: flex;
+        gap: 15px;
+  
+        .icon {
+          font-size: 1.2rem;
+          cursor: pointer;
+          transition: color 0.3s ease;
+  
+          &.edit:hover {
+            color: #4caf50;  // Verde para o ícone de edição
+          }
+  
+          &.delete:hover {
+            color: #f44336;  // Vermelho para o ícone de delete
+          }
+        }
+      }
+    }
+  
+    .card-content {
+      margin-top: 15px;
+  
+      p {
+        font-size: 1rem;
+        line-height: 1.5;
+        word-wrap: break-word;
+      }
+    }
+  }
+  

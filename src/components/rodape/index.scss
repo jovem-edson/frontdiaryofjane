@@ -1,0 +1,42 @@
+.rodape {
+    background-color: #2e2e2e;  
+    color: #f2f2f2; 
+    padding: 20px 0;
+    text-align: center;
+  
+    .conteudo-rodape {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      flex-wrap: wrap;
+  
+      p {
+        margin: 0;
+      }
+  
+      .link-rodape {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 15px;
+  
+        li {
+          a {
+            color: #f2f2f2;
+            text-decoration: none;
+            font-size: 0.9rem;
+  
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  
+  }
+  
