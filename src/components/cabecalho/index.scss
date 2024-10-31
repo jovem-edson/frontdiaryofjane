@@ -1,0 +1,47 @@
+.cabecalho {
+    background-color: #2d2d2d;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+  
+    .titulo {
+      font-family: 'Arial', sans-serif;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #f0f0f0;
+    }
+  
+    .nav {
+      .nav-list {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+  
+        .nav-item {
+          margin-left: 20px;
+  
+          .nav-link {
+            color: #f0f0f0;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: color 0.3s;
+  
+            &:hover {
+              color: #ff9900;
+            }
+          }
+        }
+      }
+    }
+  }
+  
